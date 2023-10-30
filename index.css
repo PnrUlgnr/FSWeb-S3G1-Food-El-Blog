@@ -141,12 +141,15 @@ footer a{
 
 
 footer nav a:first-child {
-  margin-left: 0;
+  margin-left: 20px;
+  text-align: center;
 }
 
 footer nav a :hover{
   color: white;
-
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
 }
 /*======= Footer nav'daki anchor tag için aşağıdaki stilleri içeren bir hover state yaratın:
   color: white;
@@ -154,6 +157,7 @@ footer nav a :hover{
 
 footer .footer-content .copyright {
   text-align: "center";
-  padding: 20px 0;
+  padding: 20px 20px;
+  
   }
    /*======= metni ortalayacak kodu yazın */
