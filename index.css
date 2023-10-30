@@ -154,10 +154,28 @@ footer nav a :hover{
 /*======= Footer nav'daki anchor tag için aşağıdaki stilleri içeren bir hover state yaratın:
   color: white;
 */
-
+/*
 footer .footer-content .copyright {
   text-align: "center";
-  padding: 20px 20px;
+  border-top: 1px dashed black;
+  padding: 20px 0;
+  
+  }*/
+  .copyright
+  {
+    text-align: center;
+    border-top: 1px dashed black;
+    padding: 20px 0;
+  }
+.footer-content {
+  text-align: center;
+  border-top: 1px dashed black;
+  width:750px;
+  padding: 20px 0;
+    /*border-top: 1px dashed black;
+    padding: 20px 0;
+    width:750px;
+  */
   
   }
    /*======= metni ortalayacak kodu yazın */
